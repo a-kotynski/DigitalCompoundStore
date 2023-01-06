@@ -8,7 +8,7 @@ public class Facility
     public string Name { get; set; }
     public FacilityTypeId FacilityType { get; set; }
     public int AddressId { get; set; } // one to one
-    public Address Address { get; set; } // virtual?
+    public virtual Address Address { get; set; } // property is virtual for future implementation of Lazy Loading (EF)
     //public int VideoGameId { get; set; } // one to many - how to represent one to many in EF?
     public List<VideoGame> VideoGames { get; set; }
 }

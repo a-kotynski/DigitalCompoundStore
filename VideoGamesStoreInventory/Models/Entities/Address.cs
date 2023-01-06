@@ -10,5 +10,5 @@ public class Address
     public string Country { get; set; }
     public string ContactNumber { get; set; }
     public string ContactEmail { get; set; }
-    public Facility Facility { get; set; } // virtual?
+    public virtual Facility Facility { get; set; } // property is virtual for future implementation of Lazy Loading (EF)
 }
