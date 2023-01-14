@@ -22,7 +22,7 @@ New variety of products:
 
 New functionalities:
 - front-end for store staff,
-- front-end for online customers,
+- front-end for online customers - e-commerce style with basket,
 - invoicing module,
 - pop-up callendar for entering sell/buy date - also front-end probably
 

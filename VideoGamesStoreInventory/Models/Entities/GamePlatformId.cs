@@ -1,6 +1,6 @@
 ﻿namespace VideoGamesStoreInventory.Models.Entities;
 
-public enum GamePlatformId // https://stackoverflow.com/questions/50375357/how-to-create-a-table-corresponding-to-enum-in-ef-core-code-first
+public enum GamePlatform // https://stackoverflow.com/questions/50375357/how-to-create-a-table-corresponding-to-enum-in-ef-core-code-first
 {
     Unknown = 0,
     PC = 1,
