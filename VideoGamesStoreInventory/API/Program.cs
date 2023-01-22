@@ -1,5 +1,4 @@
-
-namespace VideoGamesStoreInventory
+namespace VideoGamesStoreInventory.API
 {
     public class Program
     {

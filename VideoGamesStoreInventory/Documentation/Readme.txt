@@ -1,14 +1,13 @@
 ﻿Video Games Store Inventory
 
-Store points:
-- brick and mortar store with a shipping capabilities,
+About Store:
+- brick and mortar store with shipping capabilities,
 - sells and buys physical copies of video games to and from customers,
-- possible future expansions towards more variety of products
+- possible future expansions towards wider variety of products
 
 Web app points:
 - database stores all necessary information for performing sales of physical copies of video games,
 - API allows the operation of Creating, Reading, Updating and Deleting data contained in the database,
-- 
 - the body of code allows the expansion of business in the future by adding new entities and functionalities
 
 Expansion of business
@@ -18,7 +17,9 @@ Expansion of business
 
 New variety of products:
 - gaming systems,
-- vaping accessories
+- vaping accessories,
+- LED lights,
+- body odour inhibitors (game instead of shower!)
 
 New functionalities:
 - front-end for store staff,

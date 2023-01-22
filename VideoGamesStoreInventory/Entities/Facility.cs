@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace VideoGamesStoreInventory.Models.Entities;
+namespace VideoGamesStoreInventory.Entities;
 
 public class Facility
 {

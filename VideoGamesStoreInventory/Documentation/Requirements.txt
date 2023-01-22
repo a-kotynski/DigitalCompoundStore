@@ -1,0 +1,14 @@
+﻿Requirements:
+
+1.  Create Accounts - user account creation with website login
+2.  Contact Details - storing user's name and contact details
+3.  Addresses - adding addresses to user accounts with option to set a default shipping address
+4.  Payment Methods - adding payment methods to user accounts with option to set a default payment method
+5.  Products - storing large amounts of products on the website
+6.  Categories - each product blongs in a category - categories belong in other categories
+7.  Product Variations - each product can have different variations (game platform), each variation can have different values (e.g. ps5, switch)
+8.  Number in stock - the website should keep track of the number of each product that is in stock
+9.  Shopping cart - website visitors can add on or more products to their shopping cart; shopping carts are not saved in database unless a user is logged in
+10. Payment details for order - a user needs to provide their payment details and address as part of placing an order
+11. Shipping method - User can select a shipping method from a list of available shipping methods. Each shipping method has a single standard price (to keep things simple)
+

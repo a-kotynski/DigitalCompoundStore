@@ -1,4 +1,4 @@
-﻿namespace VideoGamesStoreInventory.Models.Entities;
+﻿namespace VideoGamesStoreInventory.Entities;
 
 public enum FacilityType // possible to expand further for Offices and Workshops
 {
