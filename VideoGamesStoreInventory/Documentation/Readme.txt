@@ -1,7 +1,7 @@
 ﻿Video Games Store Inventory
 
 About Store:
-- brick and mortar store with shipping capabilities,
+- brick and mortar stores with shipping capabilities,
 - sells and buys physical copies of video games to and from customers,
 - possible future expansions towards wider variety of products
 
