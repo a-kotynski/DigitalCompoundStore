@@ -1,4 +1,5 @@
 ﻿Video Games Store Inventory => Console Compound Store / Console Compound Store Inventory
+Name change: https://blog.pragtechnologies.com/how-to-rename-an-asp-net-core-project/
 
 About Store:
 - brick and mortar stores with shipping capabilities,
