@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace VideoGamesStoreInventory.API.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/products")]
     public class VideoGameController : ControllerBase
     {
         [HttpGet]
