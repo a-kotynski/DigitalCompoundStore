@@ -1,4 +1,4 @@
-﻿Video Games Store Inventory
+﻿Video Games Store Inventory => Console Compound Store / Console Compound Store Inventory
 
 About Store:
 - brick and mortar stores with shipping capabilities,
