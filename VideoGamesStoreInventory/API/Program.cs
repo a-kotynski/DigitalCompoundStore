@@ -1,3 +1,7 @@
+using VideoGamesStoreInventory.Data;
+using VideoGamesStoreInventory.Entities;
+using Microsoft.EntityFrameworkCore;
+
 namespace VideoGamesStoreInventory.API
 {
     public class Program
@@ -12,6 +16,10 @@ namespace VideoGamesStoreInventory.API
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddDbContext<VideoGamesStoreDbContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("ConsoleCompoundConnection"));
+            });
 
             var app = builder.Build();
 
