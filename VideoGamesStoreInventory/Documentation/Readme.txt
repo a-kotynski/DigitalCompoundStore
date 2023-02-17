@@ -10,7 +10,7 @@ Web app points:
 - API allows the operation of Creating, Reading, Updating and Deleting data contained in the database,
 - the body of code allows the expansion of business in the future by adding new entities and functionalities
 
-Expansion of business
+Expansion of business:
 - opening new stores,
 - opening new warehouses,
 - selling new variety of products
@@ -37,3 +37,7 @@ Thoughts about the code:
 Why use enum instead of giving a user freedom to type a game system manually with a property /* public string Category {get; set;} */
 - to decrease mistyping errors,
 - to make filtering by gaming console more accurate - you don't have to take into account misspelling of the system's names
+
+
+Database design points:
+- how to add timestamps for create, read, delete properties in each entity?

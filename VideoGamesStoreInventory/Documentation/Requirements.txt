@@ -11,4 +11,6 @@
 9.  Shopping cart - website visitors can add on or more products to their shopping cart; shopping carts are not saved in database unless a user is logged in
 10. Payment details for order - a user needs to provide their payment details and address as part of placing an order
 11. Shipping method - User can select a shipping method from a list of available shipping methods. Each shipping method has a single standard price (to keep things simple)
-
+12. Order status - the ordering process contains several stages: processing - when order is placed, delivery in progress, delivered
+13. Reviews - users can leave a written review with a five star rating (1 to 5)
+14. Promotions - website allows for promotions or sales to be run, discount can be set by specific products, product categories, stores, shipping methods, 
