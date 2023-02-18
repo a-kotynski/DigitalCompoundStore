@@ -5,7 +5,7 @@ namespace DigitalCompoundStoreAPI.API.Controllers
 {
     [ApiController]
     [Route("api/products")]
-    public class VideoGameController : ControllerBase
+    public class DigitalCompoundAPIController : ControllerBase
     {
         [HttpGet]
         public string GetVideoGames()

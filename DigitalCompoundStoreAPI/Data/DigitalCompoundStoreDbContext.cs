@@ -3,9 +3,9 @@ using DigitalCompoundStoreAPI.Entities;
 
 namespace DigitalCompoundStoreAPI.Data
 {
-    public class VideoGamesStoreDbContext : DbContext
+    public class DigitalCompoundStoreDbContext : DbContext
     {
-        public VideoGamesStoreDbContext(DbContextOptions options) : base(options)
+        public DigitalCompoundStoreDbContext(DbContextOptions options) : base(options)
         {
         }
         public DbSet<Product> Products { get; set; }

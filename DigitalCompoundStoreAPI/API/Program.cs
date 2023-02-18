@@ -16,7 +16,7 @@ namespace DigitalCompoundStoreAPI.API
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddDbContext<VideoGamesStoreDbContext>(options =>
+            builder.Services.AddDbContext<DigitalCompoundStoreDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DigitalCompoundConnection"));
             });

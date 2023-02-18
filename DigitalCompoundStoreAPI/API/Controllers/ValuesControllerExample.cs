@@ -4,7 +4,7 @@
 
 namespace DigitalCompoundStoreAPI.API.Controllers
 {
-    [Route("api2/[controller]")]
+    [Route("api2/[controller]")] // [controller] is a placeholder for the name of the controller - in this case it's 'ValuesControllerExample'
     [ApiController]
     public class ValuesControllerExample : ControllerBase
     {
