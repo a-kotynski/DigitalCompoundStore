@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace DigitalCompoundStoreAPI.API.Controllers
 {
     [ApiController]
-    [Route("api/products")]
+    [Route("api/[controller]")] // [controller] means DigitalCompoundAPI
     public class DigitalCompoundAPIController : ControllerBase
     {
         [HttpGet]
