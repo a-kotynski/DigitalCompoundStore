@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace DigitalCompoundStoreAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]")] // [controller] means 'WeatherForecast' the 'Controller' part is removed
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
