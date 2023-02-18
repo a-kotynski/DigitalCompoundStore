@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace DigitalCompoundStoreAPI.API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")] // [controller] means DigitalCompoundAPI
+    [Route("api/[controller]")] // [controller] means DigitalCompoundAPI: https://localhost:57669/api/DigitalCompoundAPI/
     public class DigitalCompoundAPIController : ControllerBase
     {
         [HttpGet]
