@@ -18,7 +18,7 @@ namespace VideoGamesStoreInventory.API
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<VideoGamesStoreDbContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("ConsoleCompoundConnection"));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DigitalCompoundConnection"));
             });
 
             var app = builder.Build();

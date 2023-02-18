@@ -1,4 +1,4 @@
-﻿Video Games Store Inventory => Console Compound Store / Console Compound Store Inventory
+﻿Video Games Store Inventory => Console Compound Store / Console Compound Store Inventory => Digital Compound Store / Digital Compound Store Inventory
 Name change: https://blog.pragtechnologies.com/how-to-rename-an-asp-net-core-project/
 
 About Store:
