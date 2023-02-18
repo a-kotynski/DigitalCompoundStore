@@ -1,11 +1,10 @@
-﻿namespace DigitalCompoundStoreAPI.Entities
+﻿namespace DigitalCompoundStoreAPI.Entities;
+
+public class PriceUsed
 {
-    public class PriceUsed
-    {
-        public int Id { get; set; }
-        public decimal PriceBuyLow { get; set; }
-        public decimal PriceBuyHigh { get; set; }
-        public decimal PriceSellLow { get; set; }
-        public decimal PriceSellHigh { get; set; }
-    }
+    public int Id { get; set; }
+    public decimal PriceBuyLow { get; set; }
+    public decimal PriceBuyHigh { get; set; }
+    public decimal PriceSellLow { get; set; }
+    public decimal PriceSellHigh { get; set; }
 }

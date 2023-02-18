@@ -1,13 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using DigitalCompoundStoreAPI.Entities;
 
-namespace DigitalCompoundStoreAPI.Data
+namespace DigitalCompoundStoreAPI.Data;
+
+public class DigitalCompoundStoreDbContext : DbContext
 {
-    public class DigitalCompoundStoreDbContext : DbContext
+    public DigitalCompoundStoreDbContext(DbContextOptions options) : base(options)
     {
-        public DigitalCompoundStoreDbContext(DbContextOptions options) : base(options)
-        {
-        }
-        public DbSet<Product> Products { get; set; }
     }
+    public DbSet<Product> Products { get; set; }
 }
