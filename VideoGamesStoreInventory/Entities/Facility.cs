@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Net;
 
-namespace VideoGamesStoreInventory.Entities;
+namespace DigitalCompoundStoreAPI.Entities;
 
 public class Facility
 {

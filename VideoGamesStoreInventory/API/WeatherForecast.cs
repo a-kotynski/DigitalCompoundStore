@@ -1,4 +1,4 @@
-namespace VideoGamesStoreInventory
+namespace DigitalCompoundStoreAPI
 {
     public class WeatherForecast
     {

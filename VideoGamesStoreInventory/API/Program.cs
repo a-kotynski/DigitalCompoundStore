@@ -1,8 +1,8 @@
-using VideoGamesStoreInventory.Data;
-using VideoGamesStoreInventory.Entities;
+using DigitalCompoundStoreAPI.Data;
+using DigitalCompoundStoreAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace VideoGamesStoreInventory.API
+namespace DigitalCompoundStoreAPI.API
 {
     public class Program
     {

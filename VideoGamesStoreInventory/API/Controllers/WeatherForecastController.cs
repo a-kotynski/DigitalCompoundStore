@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace VideoGamesStoreInventory.Controllers
+namespace DigitalCompoundStoreAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

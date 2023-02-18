@@ -1,4 +1,4 @@
-﻿namespace VideoGamesStoreInventory.Entities;
+﻿namespace DigitalCompoundStoreAPI.Entities;
 
 public enum VideoGamePlatform // https://stackoverflow.com/questions/50375357/how-to-create-a-table-corresponding-to-enum-in-ef-core-code-first
 {

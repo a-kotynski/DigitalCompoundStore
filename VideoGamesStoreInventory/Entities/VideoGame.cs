@@ -1,4 +1,4 @@
-﻿namespace VideoGamesStoreInventory.Entities;
+﻿namespace DigitalCompoundStoreAPI.Entities;
 
 public class VideoGame
 {

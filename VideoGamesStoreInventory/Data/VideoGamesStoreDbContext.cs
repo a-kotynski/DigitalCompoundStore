@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using VideoGamesStoreInventory.Entities;
+using DigitalCompoundStoreAPI.Entities;
 
-namespace VideoGamesStoreInventory.Data
+namespace DigitalCompoundStoreAPI.Data
 {
     public class VideoGamesStoreDbContext : DbContext
     {
