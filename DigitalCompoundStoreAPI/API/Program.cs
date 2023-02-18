@@ -30,7 +30,6 @@ namespace DigitalCompoundStoreAPI.API
                 app.UseSwaggerUI();
             }
 
-
             app.UseAuthorization();
 
 
