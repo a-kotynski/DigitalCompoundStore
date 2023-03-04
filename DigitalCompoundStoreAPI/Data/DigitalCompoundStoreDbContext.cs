@@ -22,11 +22,23 @@ public class DigitalCompoundStoreDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Facility>()
+        modelBuilder.Entity<Product>()
+            .Property(p => p.Name)
+            .IsRequired();
+
+        modelBuilder.Entity<Price>()
+            .Property(p => p.PriceBuy)
+            .IsRequired();
+
+        modelBuilder.Entity<PriceUsed>()
+            .Property(p => p.PriceBuyLow)
+            .IsRequired();
+
+        modelBuilder.Entity<Facility>()                     // type conversion for enum
             .Property(p => p.FacilityType)
             .HasConversion<string>();
 
-        modelBuilder.Entity<VideoGame>()
+        modelBuilder.Entity<VideoGame>()                    // type conversion for enum
             .Property(p => p.VideoGamePlatform)
             .HasConversion<string>();
     }
