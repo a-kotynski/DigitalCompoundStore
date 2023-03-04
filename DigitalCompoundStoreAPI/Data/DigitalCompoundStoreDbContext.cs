@@ -17,13 +17,17 @@ public class DigitalCompoundStoreDbContext : DbContext
     public DbSet<Facility> Facilities { get; set; }
     public DbSet<Address> Addresses { get; set; }
     public DbSet<VideoGame> VideoGames { get; set; }
-    public DbSet<FacilityType> FacilityTypes { get; set; } // TODO change enum to something simpler to migrate
-    public DbSet<VideoGamePlatform> VideoGamePlatforms { get; set; } // TODO change enum to something simpler to migrate
+    //public DbSet<FacilityType> FacilityTypes { get; set; } // TODO change enum to something simpler to migrate                // added type conversion below instead
+    //public DbSet<VideoGamePlatform> VideoGamePlatforms { get; set; } // TODO change enum to something simpler to migrate      // --||--
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Facility>()
             .Property(p => p.FacilityType)
+            .HasConversion<string>();
+
+        modelBuilder.Entity<VideoGame>()
+            .Property(p => p.VideoGamePlatform)
             .HasConversion<string>();
     }
 }
