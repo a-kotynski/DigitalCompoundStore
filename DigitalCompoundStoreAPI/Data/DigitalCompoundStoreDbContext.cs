@@ -31,7 +31,7 @@ public class DigitalCompoundStoreDbContext : DbContext
             .IsRequired();
 
         modelBuilder.Entity<PriceUsed>()
-            .Property(p => p.PriceBuyLow)
+            .Property(p => p.PriceBuy)
             .IsRequired();
 
         modelBuilder.Entity<Facility>()                     // type conversion for enum
