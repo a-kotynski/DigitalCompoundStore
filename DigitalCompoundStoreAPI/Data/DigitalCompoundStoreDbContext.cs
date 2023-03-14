@@ -35,11 +35,11 @@ public class DigitalCompoundStoreDbContext : DbContext
             .IsRequired();
 
         modelBuilder.Entity<Facility>()                     // type conversion for enum
-            .Property(p => p.FacilityType)
+            .Property(f => f.FacilityType)
             .HasConversion<string>();
 
         modelBuilder.Entity<VideoGame>()                    // type conversion for enum
-            .Property(p => p.VideoGamePlatform)
+            .Property(v => v.VideoGamePlatform)
             .HasConversion<string>();
     }
 }
