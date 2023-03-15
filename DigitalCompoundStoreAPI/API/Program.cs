@@ -16,10 +16,7 @@ public class Program
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
-        builder.Services.AddDbContext<DigitalCompoundStoreDbContext>(options =>
-        {
-            options.UseSqlServer(builder.Configuration.GetConnectionString("DigitalCompoundConnection"));
-        });
+        builder.Services.AddDbContext<DigitalCompoundStoreDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DigitalCompoundConnection")));
 
         var app = builder.Build();
 
