@@ -12,6 +12,4 @@ public class Address
     public string ContactEmail { get; set; }
 
     // Navigation properties
-    public int FacilityId { get; set; }
-    public virtual Facility Facility { get; set; } // property is virtual for future implementation of Lazy Loading (EF)
 }
