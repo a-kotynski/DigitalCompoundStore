@@ -41,4 +41,4 @@ Why use enum instead of giving a user freedom to type a game system manually wit
 
 
 Database design questions:
-- how to add timestamps for create, read, delete properties in each entity?
+- how to add timestamps for create, read, delete properties in each entity? 
