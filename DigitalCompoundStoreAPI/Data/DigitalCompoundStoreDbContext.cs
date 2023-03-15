@@ -22,17 +22,17 @@ public class DigitalCompoundStoreDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Product>()
-            .Property(p => p.Name)
-            .IsRequired();
+        //modelBuilder.Entity<Product>()
+        //    .Property(p => p.Name)
+        //    .IsRequired();
 
-        modelBuilder.Entity<Price>()
-            .Property(p => p.PriceBuy)
-            .IsRequired();
+        //modelBuilder.Entity<Price>()
+        //    .Property(p => p.PriceBuy)
+        //    .IsRequired();
 
-        modelBuilder.Entity<PriceUsed>()
-            .Property(p => p.PriceBuy)
-            .IsRequired();
+        //modelBuilder.Entity<PriceUsed>()
+        //    .Property(p => p.PriceBuy)
+        //    .IsRequired();
 
         modelBuilder.Entity<Facility>()                     // type conversion for enum
             .Property(f => f.FacilityType)
