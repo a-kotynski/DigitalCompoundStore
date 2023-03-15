@@ -9,8 +9,6 @@ public class Product
     public string Barcode { get; set; } //TODO barcode implementation
 
     // Navigation properties
-    public int FacilityBoughtId { get; set; }
-    public int FacilitySoldId { get; set; }
     public int? PriceId { get; set; }
     public virtual Price Price {get; set;}
     public int? PriceUsedId { get; set; }
