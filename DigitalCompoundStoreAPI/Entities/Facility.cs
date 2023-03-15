@@ -7,7 +7,7 @@ public class Facility
 {
     public int Id { get; set; }
     public string Name { get; set; }
-    public FacilityType FacilityType { get; set; }
+    //public FacilityType FacilityType { get; set; }
 
     // Navigation properties
     public int AddressId { get; set; } // one to one

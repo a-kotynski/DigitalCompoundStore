@@ -20,26 +20,26 @@ public class DigitalCompoundStoreDbContext : DbContext
     //public DbSet<FacilityType> FacilityTypes { get; set; } // TODO change enum to something simpler to migrate                // added type conversion below instead
     //public DbSet<VideoGamePlatform> VideoGamePlatforms { get; set; } // TODO change enum to something simpler to migrate      // --||--
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        //modelBuilder.Entity<Product>()
-        //    .Property(p => p.Name)
-        //    .IsRequired();
+    //protected override void OnModelCreating(ModelBuilder modelBuilder)
+    //{
+    //    //modelBuilder.Entity<Product>()
+    //    //    .Property(p => p.Name)
+    //    //    .IsRequired();
 
-        //modelBuilder.Entity<Price>()
-        //    .Property(p => p.PriceBuy)
-        //    .IsRequired();
+    //    //modelBuilder.Entity<Price>()
+    //    //    .Property(p => p.PriceBuy)
+    //    //    .IsRequired();
 
-        //modelBuilder.Entity<PriceUsed>()
-        //    .Property(p => p.PriceBuy)
-        //    .IsRequired();
+    //    //modelBuilder.Entity<PriceUsed>()
+    //    //    .Property(p => p.PriceBuy)
+    //    //    .IsRequired();
 
-        modelBuilder.Entity<Facility>()                     // type conversion for enum
-            .Property(f => f.FacilityType)
-            .HasConversion<string>();
+    //    modelBuilder.Entity<Facility>()                     // type conversion for enum
+    //        .Property(f => f.FacilityType)
+    //        .HasConversion<string>();
 
-        modelBuilder.Entity<VideoGame>()                    // type conversion for enum
-            .Property(v => v.VideoGamePlatform)
-            .HasConversion<string>();
-    }
+    //    modelBuilder.Entity<VideoGame>()                    // type conversion for enum
+    //        .Property(v => v.VideoGamePlatform)
+    //        .HasConversion<string>();
+    //}
 }

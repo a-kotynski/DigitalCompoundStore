@@ -6,7 +6,7 @@ public class VideoGame
     public string Developer { get; set; }
     public string Publisher { get; set; }
     public string ConditionDescription { get; set; }
-    public VideoGamePlatform VideoGamePlatform { get; set; } // each video game copy works on only one platform
+    //public VideoGamePlatform VideoGamePlatform { get; set; } // each video game copy works on only one platform
 
     // Navigation properties
     public virtual Facility Facility { get; set; } // property is virtual for future implementation of Lazy Loading (EF)
